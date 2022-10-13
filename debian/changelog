@@ -1,0 +1,19 @@
+node-deepmerge (4.2.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Drop legacy node-resolve plugin usage
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 31 Dec 2020 20:36:22 +0530
+
+node-deepmerge (4.2.2-2) unstable; urgency=medium
+
+  * Use dh-sequence-nodejs
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 22 Oct 2020 08:45:22 +0200
+
+node-deepmerge (4.2.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #970506)
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 17 Sep 2020 16:19:15 +0200

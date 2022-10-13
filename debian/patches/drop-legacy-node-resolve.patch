@@ -1,0 +1,13 @@
+
+Forwarded: https://github.com/TehShrike/deepmerge/pull/222
+
+--- a/rollup.config.js
++++ b/rollup.config.js
+@@ -1,5 +1,5 @@
+-import resolve from 'rollup-plugin-node-resolve'
+-import commonjs from 'rollup-plugin-commonjs'
++import resolve from '@rollup/plugin-node-resolve'
++import commonjs from '@rollup/plugin-commonjs'
+ import pkg from './package.json'
+ 
+ export default {
