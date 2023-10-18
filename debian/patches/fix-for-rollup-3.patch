@@ -1,0 +1,21 @@
+Description: fix for rollup 3
+Author: Yadd <yadd@debian.org>
+Bug-Debian: https://bugs.debian.org/1022621
+Forwarded: not-needed
+Last-Update: 2022-10-26
+
+--- a/rollup.config.js
++++ b/rollup.config.js
+@@ -1,8 +1,8 @@
+-import resolve from '@rollup/plugin-node-resolve'
+-import commonjs from '@rollup/plugin-commonjs'
+-import pkg from './package.json'
++const resolve = require('@rollup/plugin-node-resolve').nodeResolve
++const commonjs = require('@rollup/plugin-commonjs')
++const pkg = require('./package.json')
+ 
+-export default {
++module.exports = {
+ 	input: `index.js`,
+ 	plugins: [
+ 		commonjs(),

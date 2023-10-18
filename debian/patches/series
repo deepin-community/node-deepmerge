@@ -1,1 +1,2 @@
 drop-legacy-node-resolve.patch
+fix-for-rollup-3.patch
