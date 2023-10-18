@@ -19,7 +19,7 @@ Comment: The upstream distribution does not contain an explicit statement of
  its respective authors unless otherwise stated.
 
 Files: debian/*
-Copyright: 2020, Xavier Guimard <yadd@debian.org>
+Copyright: 2020, Yadd <yadd@debian.org>
 License: Expat
 
 License: Expat

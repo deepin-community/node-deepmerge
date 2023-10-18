@@ -1,3 +1,35 @@
+node-deepmerge (4.2.2+~1.1.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Authorize __proto__ access during autopkgtest: test verifies pollution
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 12:53:02 +0200
+
+node-deepmerge (4.2.2+~1.1.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-deepmerge: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Add fix for rollup 3 (Closes: #1022621)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 12:16:19 +0200
+
+node-deepmerge (4.2.2+~1.1.1-1) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Submit.
+  * Add ctype=nodejs to component(s)
+  * Update standards version to 4.6.0, no changes needed.
+  * debian/watch:
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+    * Use uscan group and repack
+
+ -- Yadd <yadd@debian.org>  Mon, 22 Nov 2021 11:29:00 +0100
+
 node-deepmerge (4.2.2-3) unstable; urgency=medium
 
   * Team upload
